@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Chrome: viewport-only-sample",
+            "type": "pwa-chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/samples/viewport-only-sample/src",
+            "smartStep": true,
+            "sourceMapPathOverrides": {
+                "webpack:///samples/viewport-only-sample/src/*": "${webRoot}/*"
+            }
+        },
+        {
+            "name": "Chrome: display-styles-sample",
+            "type": "pwa-chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/samples/display-styles-sample/src",
+            "smartStep": true,
+            "sourceMapPathOverrides": {
+                "webpack:///samples/display-styles-sample/src/*": "${webRoot}/*"
+            }
+        }
+    ]
+}

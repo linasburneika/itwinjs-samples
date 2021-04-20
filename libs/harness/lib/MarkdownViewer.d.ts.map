@@ -1,0 +1,1 @@
+{"version":3,"file":"MarkdownViewer.d.ts","sourceRoot":"","sources":["../src/MarkdownViewer.tsx"],"names":[],"mappings":"AAIA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAI/B,MAAM,WAAW,mBAAmB;IAClC,MAAM,EAAE,MAAM,CAAC;IACf,aAAa,EAAE,CAAC,IAAI,CAAC,EAAE,MAAM,GAAG,SAAS,KAAK,IAAI,CAAC;CAEpD;AAED,MAAM,CAAC,OAAO,OAAO,cAAe,SAAQ,KAAK,CAAC,SAAS,CAAC,mBAAmB,CAAC;IAEvE,MAAM;CAad"}

@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "esnext.asynciterable",
+      "dom",
+      "dom.iterable",
+      "scripthost",
+      "webworker",
+      "ESNext"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "stripInternal": false,
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": false,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "declarationMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
+    "outDir": "./lib",
+    "jsx": "react",
+    "allowJs": true,
+    "target": "ES2018",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": [
+    "lib",
+    "node_modules",
+    "src/__mocks__",
+    "src/__tests__",
+    "src/__utils__"
+  ]
+}

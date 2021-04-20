@@ -1,0 +1,54 @@
+{
+  "name": "viewport-only-sample",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-app-rewired start --scripts-version @bentley/react-scripts",
+    "build": "react-app-rewired build --scripts-version @bentley/react-scripts",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@bentley/imodeljs-frontend": "2.14.0",
+    "@bentley/itwin-viewer-react": "^6.2.0",
+    "@bentley/itwinjs-sandbox-harness": "*",
+    "@bentley/itwinjs-sandbox": "*",
+    "@bentley/react-scripts": "^3.4.10",
+    "@bentley/ui-abstract": "2.14.0",
+    "@bentley/ui-framework": "2.14.0",
+    "@types/node": "^12.20.7",
+    "@types/react-dom": "^17.0.3",
+    "@types/react": "^17.0.3",
+    "react-dom": "^16.6.0",
+    "react-scripts": "^4.0.3",
+    "react": "^16.6.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.10.3",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.13.8",
+    "@babel/plugin-proposal-optional-chaining": "^7.13.12",
+    "customize-cra": "^1.0.0",
+    "istanbul-instrumenter-loader": "^3.0.1",
+    "monaco-editor-webpack-plugin": "^2.0.0",
+    "node-sass": "^4.14.1",
+    "null-loader": "^4.0.0",
+    "path": "^0.12.7",
+    "raw-loader": "^4.0.2",
+    "react-app-rewired": "^2.1.8",
+    "typescript": "^3.9.5",
+    "webpack-filter-warnings-plugin": "^1.2.1",
+    "worker-loader": "^3.0.8"
+  },
+
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
