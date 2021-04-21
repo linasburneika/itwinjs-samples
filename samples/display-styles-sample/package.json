@@ -4,7 +4,7 @@
   "scripts": {
     "start-orig": "react-scripts start",
     "start": "react-app-rewired start --scripts-version @bentley/react-scripts",
-    "build": "react-app-rewired build --scripts-version @bentley/react-scripts",
+    "build": "echo skipped",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
